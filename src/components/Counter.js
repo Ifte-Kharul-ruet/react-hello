@@ -12,7 +12,7 @@ class Counter extends Component {
         // this.setState({count: this.state.count +1},()=>{console.log('Callback Value',this.state.count)})
         // console.log(this.state.count)
 
-        this.setState((previousState)=>{count: previousState+1});
+        this.setState(previousState => ({count: previousState.count+1}));
     }
     increamentFive(){
       this.increament();
