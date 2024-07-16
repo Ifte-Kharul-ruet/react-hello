@@ -4,11 +4,11 @@ import React from 'react';
 //     return <h1> Hello World</h1>;
 
 // }
-const Greet = (props) => {
+const Greet = ({name}) => {
     // ,=console.log(props);
 return (<div>
-<h1>Hello {props.name}</h1>
-<h2>{props.children}</h2>
+<h1>Hello {name}</h1>
+{/* <h2>{props.children}</h2> */}
 
 </div>);
 }
