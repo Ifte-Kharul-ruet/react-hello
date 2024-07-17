@@ -11,9 +11,14 @@ import EventBind from './components/eventBind';
 import ParentComponent from './components/parentComponent';
 import UserGreetings from './components/UserGreetings';
 import NameList from './components/NameList';
+import Stylesheet from './components/Stylesheet';
+import Inline from './components/Inline'
+import Form from './components/Form';
 function App() {
   return (
     <div className="App">
+      <Form/>
+      {/* <Inline /> */}
       {/* <Greet name= "Tamim" > Dhur ghum pay khali</Greet> */}
       {/* <Greet name = "Sabbir" />
       <Greet name = "Kodu Azad"/>
@@ -27,7 +32,10 @@ function App() {
       {/* <EventBind/> */}
       {/* <ParentComponent/> */}
       {/* <UserGreetings/> */}
-      <NameList/>
+      {/* <NameList/> */}
+      {/* <Stylesheet primary = {true} /> */}
+    
+
     </div>
   );
 }
